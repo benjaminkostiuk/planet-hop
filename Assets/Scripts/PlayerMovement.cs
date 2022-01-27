@@ -9,25 +9,55 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D body;
     private BoxCollider2D boxCollider;
+    //private CapsuleCollider2D boxCollider;
+    private Animator animator;
+    private const string ANIMATION_STATE = "state";
+
+    private enum MovementState
+    {
+        IDLE,
+        JUMPING
+    }
 
     // Start is called before the first frame update
     void Start()
     {
         body = GetComponent<Rigidbody2D>();
         boxCollider = GetComponent<BoxCollider2D>();
+        //boxCollider = GetComponent<CapsuleCollider2D>();
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        // Jump on space button down
-        if(isGrounded() && Input.GetButtonDown("Jump"))
+        // Remove drag on astronaut
+        body.drag = 0f;
+        if(isGrounded())
         {
-            body.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+            // Add drag from planet surface
+            body.drag = 1f;
+            // Jump on space button down
+            if (Input.GetButtonDown("Jump"))
+            {
+                body.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
+            }
         }
+        UpdateAnimationState();
+    }
 
-        //float degreesPerSecond = 30f;
-        //transform.RotateAround(onPlanet.position, Vector3.forward, degreesPerSecond * Time.deltaTime);
+    private void UpdateAnimationState()
+    {
+        MovementState state = MovementState.IDLE;
+
+        float dirY = body.transform.up.y > 0 ? 1 : -1;
+        float dirX = body.transform.up.x > 0 ? 1 : -1;
+
+        if((body.velocity.y * dirY > .1f || body.velocity.x * dirX > .1f) && !isGrounded())
+        {
+            state = MovementState.JUMPING;
+        }
+        animator.SetInteger(ANIMATION_STATE, (int) state);
     }
 
     public bool isGrounded()
