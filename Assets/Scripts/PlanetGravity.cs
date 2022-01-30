@@ -45,18 +45,8 @@ public class PlanetGravity : MonoBehaviour
 
         // If player is in gravity field
         if (obj.CompareTag("Player"))
-        {
-            // Force player to stay upright on planet
-            float correctionForce = 20f;
-            //Quaternion targetRotation = Quaternion.LookRotation(rb.transform.forward, -1 * gravity);
-            //rb.transform.rotation = Quaternion.Slerp(rb.transform.rotation, targetRotation, correctionForce * Time.fixedDeltaTime);
-            obj.transform.up = Vector3.MoveTowards(obj.transform.up, -gravity, gravityScale * Time.deltaTime * 5f);
-
-            // Rotate the player around the planet to simulate planet rotation
-            if (obj.GetComponent<PlayerMovement>().isGrounded())
-            {
-                obj.transform.RotateAround(transform.position, Vector3.forward, degreesPerSec * Time.deltaTime);
-            }
+        {   
+            obj.transform.up = Vector3.MoveTowards(obj.transform.up, -gravity, gravityScale * Time.deltaTime * 6f);
         }
     }
 }

@@ -9,8 +9,9 @@ public class PlayerMovement : MonoBehaviour
 
     private Rigidbody2D body;
     private BoxCollider2D boxCollider;
-    //private CapsuleCollider2D boxCollider;
     private Animator animator;
+    [SerializeField] private AudioSource jumpSoundEffect;
+
     private const string ANIMATION_STATE = "state";
 
     private enum MovementState
@@ -40,6 +41,7 @@ public class PlayerMovement : MonoBehaviour
             // Jump on space button down
             if (Input.GetButtonDown("Jump"))
             {
+                jumpSoundEffect.Play();
                 body.AddForce(transform.up * jumpForce, ForceMode2D.Impulse);
             }
         }
