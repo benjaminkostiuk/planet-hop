@@ -178,6 +178,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c135213a5c54f2f4984eaa105cc33b20, type: 3}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -453191265
+      objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403243, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_Name
       value: Planet (8)
@@ -296,7 +304,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 151504773
-  m_SortingLayer: 1
+  m_SortingLayer: 2
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: 7147553b1e72eec449c5ace4f9f4d13a, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1023,6 +1031,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c37b6465dcc722340a3a437ce8dbbe96, type: 3}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -453191265
+      objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403243, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_Name
       value: Planet (6)
@@ -1128,6 +1144,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 0aab17f474ae0434eb7aff4a29cc0123, type: 3}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -453191265
+      objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403243, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_Name
       value: Earth
@@ -1268,8 +1296,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -453191265
+  m_SortingLayer: 1
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: d1633d80f997845418c21db664ba138f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -1373,6 +1401,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: ddc556a241acd514ba8409f6e064201c, type: 3}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -453191265
+      objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403243, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_Name
       value: Planet (3)
@@ -3066,6 +3102,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: c37b6465dcc722340a3a437ce8dbbe96, type: 3}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -453191265
+      objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403243, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_Name
       value: Planet (1)
@@ -3223,10 +3267,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1017429603}
     m_Modifications:
+    - target: {fileID: 1216235541759448574, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216235541759448574, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 765aab9d7d5f75f478521312f0b8a3dd, type: 3}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -453191265
+      objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403243, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_Name
       value: Planet
@@ -3292,6 +3352,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: ef1bf2ecc16140f4195ed991ac4136c1, type: 3}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayer
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -453191265
+      objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403243, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_Name
       value: Planet (7)
@@ -3318,7 +3386,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403245, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 152.44
+      value: 154.63
       objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403245, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3402,6 +3470,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 1eebe61fa30929248bdcda4d7c3c51ec, type: 3}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -453191265
+      objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403243, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_Name
       value: Planet (4)
@@ -3522,10 +3598,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1017429603}
     m_Modifications:
+    - target: {fileID: 1216235541759448574, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayer
+      value: -2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216235541759448574, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 1543694499
+      objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 8d93f8b646fad08429a3686590a61bf7, type: 3}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -453191265
+      objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403243, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_Name
       value: Planet (5)
@@ -3620,7 +3712,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997817398}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 167.5, y: 18.78, z: -241.61981}
+  m_LocalPosition: {x: 169.69, y: 18.78, z: -241.61981}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1490020457}
@@ -3711,6 +3803,14 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 01e466e2fb6eea34ea00e20acc789c01, type: 3}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayer
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1216235542438403242, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
+      propertyPath: m_SortingLayerID
+      value: -453191265
+      objectReference: {fileID: 0}
     - target: {fileID: 1216235542438403243, guid: 6727fa8fae4a73c49b555912aa08913b, type: 3}
       propertyPath: m_Name
       value: Planet (2)
