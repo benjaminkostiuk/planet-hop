@@ -8,10 +8,10 @@ Built with Unity.
 
 ## Media Library
 
-![Thumbnail](./screenshots/PlanetHopThumb.png)
+![Thumbnail](./screenshots/PlanetHopThumb.PNG)
 
-![Screenshot 1](./screenshots/PlanetHopSC1.png)
+![Screenshot 1](./screenshots/PlanetHopSC1.PNG)
 
-![Screenshot 2](./screenshots/PlanetHopSc2.png)
+![Screenshot 2](./screenshots/PlanetHopSc2.PNG)
 
-![Screenshot 3](./screenshots/PlanetHopSC3.png)
+![Screenshot 3](./screenshots/PlanetHopSC3.PNG)
